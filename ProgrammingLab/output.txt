@@ -1,0 +1,18 @@
+Hello World!
+I am new here, what about you? are you new here too?
+Character frequencies:
+'a' : 4
+'b' : 1
+'d' : 1
+'e' : 8
+'h' : 4
+'i' : 1
+'l' : 3
+'m' : 1
+'n' : 2
+'o' : 7
+'r' : 4
+'t' : 3
+'u' : 3
+'w' : 4
+'y' : 2
