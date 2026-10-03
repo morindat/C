@@ -2,10 +2,23 @@
 *.exe
 *.o
 *.out
+*.so
+*.dylib
+*.dSYM
+a.out
 build/
+bin/
+obj/
 
 # Editor
 .vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Temporary files
+tempCodeRunnerFile.*
 
 # OS
 .DS_Store

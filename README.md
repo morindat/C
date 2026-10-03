@@ -17,14 +17,16 @@ fuller data-structure implementations.
 
 ## Build
 
-Each file compiles on its own:
+Each file compiles on its own. Compile into `build/` so binaries stay untracked:
 
 ```sh
-gcc -Wall -Wextra -std=c11 path/to/file.c -o out
-./out
+mkdir -p build
+gcc -Wall -Wextra -std=c11 path/to/file.c -o build/out
+./build/out
 ```
 
 ## Notes
 
-The repository keeps its history, so some early files retain scratch names and editor
-leftovers. `DSA/` and `ProgrammingLab/` are the most complete directories.
+Compiled binaries and editor artefacts that had accumulated in earlier commits were
+removed; the repository now holds source and data files only. `DSA/` and
+`ProgrammingLab/` are the most complete directories.
